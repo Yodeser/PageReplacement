@@ -1,27 +1,6 @@
 package cn.yodes.OS.Algorithm;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class FIFO {
-	Queue<Integer> Queue_Pages = new LinkedList<Integer>();
-		
-	public void addEle(int[] page , int block){
-		
-		for(int i = 0; i < page.length; i++){
-			if(Queue_Pages.size() < 3){
-				Queue_Pages.offer(page[i]);
-			}else{
-				Queue_Pages.poll();
-				Queue_Pages.add(page[i]);
-			}
-			for(int j : Queue_Pages){
-				System.out.print(j + "\t");
-			}
-			System.out.println();
-//			Queue_Pages
-		}
-	}
 	
 	public void start(int []page , int []block){
 		int index_old = 0 , pre = 0 , current = 0;
