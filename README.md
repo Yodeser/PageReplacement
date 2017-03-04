@@ -1,2 +1,2 @@
 # PageReplacement
-A operate system course design about page replacement algorithm.
+A operate system course design about the page replacement algorithm.
