@@ -47,23 +47,6 @@ public class MainGUI {
 		frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setBounds(100, 100, 614, 402);
-		frame.getContentPane().setLayout(new GridLayout(1, 0, 0, 0));
-		
-		JSplitPane splitPane = new JSplitPane();
-		frame.getContentPane().add(splitPane);
-		
-		JScrollPane scrollPane = new JScrollPane();
-		splitPane.setLeftComponent(scrollPane);
-		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
-		scrollPane.setColumnHeaderView(btnNewButton);
-		
-		JButton btnNewButton_1 = new JButton("New button");
-		scrollPane.setViewportView(btnNewButton_1);
 	}
 
 }
