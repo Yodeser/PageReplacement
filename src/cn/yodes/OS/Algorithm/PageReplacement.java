@@ -186,10 +186,6 @@ public class PageReplacement {
 								break;
 							}
 					current = getIndexOfMaxVal(temp);
-//					System.out.print("m:");
-//					for(int m : temp){
-//						System.out.print(m + "\t");
-//					}
 					block[current] = page[i];
 				}
 			}
